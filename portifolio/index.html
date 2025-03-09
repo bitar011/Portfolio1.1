@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Victor Bitar</title>
-  </head>
-  <body>
-    <div class="header">
-        <header>
-            <input type="button" value="Sobre mim" class="btn">
-            <input type="button" value="Linguagens & Projetos" class="btn">
-            <input type="button" value="Contato" class="btn">
-        </header>
-    </div>
-    <div class="about">
-        <img id="vt" src="./dadosIMG/me.jpeg" alt="me">
-        <h2>Sobre mim</h2>
-        <p>Olá, meu nome é Victor, sou um desenvolvedor web, tenho 19 anos e sou apaixonado por tecnologia.</p>
-    </div>
-    <div class="Linguagens">
-        <h2>Linguagens & Projetos</h2>
-        <div class="imgs">
-            <img src="./dadosIMG/html.png" alt="HTML" id="html">
-            <img src="./dadosIMG/css.png" alt="CSS" id="css">
-            <img src="./dadosIMG/JavaScript.png" alt="JavaScript" id="js">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Biar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Olá, sou Victor!
+    </header>
+    
+    <section class="about">
+        <h2>Sobre Mim</h2>
+        <img src="./dadosIMG/me.jpeg" alt="Minha Foto">
+        <p>Sou um aspirante a desenvolvedor apaixonado por tecnologia, criando soluções inovadoras e eficientes.</p>
+    </section>
+    
+    <section class="my-projects">
+        <h2>Meus Projetos</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Projeto 1</h3>
+                <a href="#"><img src="#" alt="Projeto1"></a>
+                <p>Descrição do projeto 1</p>
+            </div>
+            <div class="project-card">
+                <h3>Projeto 2</h3>
+                <a href="#"><img src="#" alt="Projeto2"></a>
+                <p>Descrição do projeto 2</p>
+            </div>
+            <div class="project-card">
+                <h3>Projeto 3</h3>
+                <a href="#"><img src="#" alt="Projeto3"></a>
+                <p>Descrição do projeto 3</p>
+            </div>
         </div>
-    </div>
-    <div class="Contato">
+    </section>
+    
+    <section class="contact">
         <h2>Contato</h2>
-        <p>Telefone: (73) 98846-1274</p>
-        <p>Email: victorbitarr@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/bitar011">github.com/bitar011</a></p>
-    </div>
-  </body>
-  <script src="script.js"></script>
+        <div class="contacts">
+          <button class="contact-btn">WhatsApp<a href="#"></a></button>
+            <button class="contact-btn">Email<a href="#"></a></button>
+            <button class="contact-btn">GitHub<a href="#"></a></button>
+        </div>
+    </section>
+</body>
 </html>

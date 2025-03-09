@@ -1,142 +1,56 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #263d68; 
+    color: #ffffff; 
 }
 
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
-}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, #343275, #422880, #7947c9, #343275);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    padding: 20px 50px;
-    justify-content: flex-end;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #302466;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.btn:hover {
-    background-color: #1a1a2e;
-    color: #f5f5f5;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    animation: gradientAnimation 15s ease infinite;
-}
-
-.about h2 {
-    color: #f5f5f5;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-
-.about p {
-    color: #f5f5f5;
-    font-size: 1.2rem;
+header { 
+    background: #263d68; 
+    color: white; 
     text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold; 
 }
 
-#vt {
-    width: 20%;
-    border-radius: 65px;
-    padding: 15px 20px 15px 20px;
+section { 
+    padding: 20px;
+    text-align: center; 
 }
-
-.Linguagens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
-
-.Linguagens h2 {
-    color: #f5f5f5;
-    font-size: 1.5rem;
+.about img{
+    width: 150px;
+    height: auto;
+    border-radius: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-.Linguagens .imgs {
+.projects { 
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    flex-wrap: wrap; 
 }
-
-#html {
-    height: auto;
-    width: auto;
-    max-width: 60px;
-    max-height: 60px;
-    padding-top: 7px;
+.project-card { 
+    background: #263d68;
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px; 
 }
-
-#css {
-    height: auto;
-    width: auto;
-    max-width: 75px;
-    max-height: 75px;
+.contacts {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px; 
 }
-
-#js {
-    height: auto;
-    width: auto;
-    max-width: 60px;
-    max-height: 60px;
-    padding-top: 7px;
-}
-
-.Contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    gap: 5px;
-}
-
-.Contato h2 {
-    color: #f5f5f5;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.Contato p {
-    color: #f5f5f5;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.Contato p a {
-    color: #f5f5f5;
-    text-decoration: none;
+.contact-btn {
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px;
+    background: #111324; 
+    color: white; 
 }
