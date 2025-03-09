@@ -40,6 +40,13 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 250px; 
 }
+
+.project-card:hover { 
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .contacts {
     display: flex; 
     justify-content: center; 
@@ -53,4 +60,9 @@ section {
     border-radius: 5px;
     background: #111324; 
     color: white; 
+}
+
+.contact-btn a { 
+    color: white; 
+    text-decoration: none; 
 }
